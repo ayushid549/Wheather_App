@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E2E2;
+}
+.container .heading{
+    text-transform: uppercase;
+    color:black;
+    margin: 30px;
+}
+.container .box{
+    width: 25vw;
+    height: 60vh;
+    position:absolute;
+    top: 20%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 0in;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #8DCBE6;
+    box-shadow: rgba(144, 144, 147, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media screen and (max-width: 1000px) {
+   .box{
+    width: 45vw;
+    height: 70vh;
+   }
+}
+
+.inputData input{
+    width: 30vh;
+    height: 6vh;
+    border-radius:35px;
+    border:0in;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding:15px;
+    text-transform: uppercase;
+}
+.box .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Open Sans', sans-serif;
+    margin: 20%;
+}
+.box p{
+    margin: 10px;
+    font-size: 25px;
+}
+.info h2{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.info h2 i{
+    color:black;
+    font-size: 40px;
+}
+.info h1{
+    margin: 10px;
+}
+.info h3{
+    margin: 10px;
+}
+
+
